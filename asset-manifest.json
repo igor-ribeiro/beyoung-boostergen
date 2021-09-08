@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/beyoung-boostergen/static/css/main.97aaf748.chunk.css",
+    "main.js": "/beyoung-boostergen/static/js/main.1fd1ae65.chunk.js",
+    "main.js.map": "/beyoung-boostergen/static/js/main.1fd1ae65.chunk.js.map",
+    "runtime-main.js": "/beyoung-boostergen/static/js/runtime-main.0fa2f177.js",
+    "runtime-main.js.map": "/beyoung-boostergen/static/js/runtime-main.0fa2f177.js.map",
+    "static/js/2.34e7e955.chunk.js": "/beyoung-boostergen/static/js/2.34e7e955.chunk.js",
+    "static/js/2.34e7e955.chunk.js.map": "/beyoung-boostergen/static/js/2.34e7e955.chunk.js.map",
+    "index.html": "/beyoung-boostergen/index.html",
+    "static/css/main.97aaf748.chunk.css.map": "/beyoung-boostergen/static/css/main.97aaf748.chunk.css.map",
+    "static/js/2.34e7e955.chunk.js.LICENSE.txt": "/beyoung-boostergen/static/js/2.34e7e955.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fa2f177.js",
+    "static/js/2.34e7e955.chunk.js",
+    "static/css/main.97aaf748.chunk.css",
+    "static/js/main.1fd1ae65.chunk.js"
+  ]
+}
