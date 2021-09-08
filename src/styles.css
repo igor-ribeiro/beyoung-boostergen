@@ -1,0 +1,113 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+button {
+  padding: 12px 6px;
+  margin: 4px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1 i {
+  font-weight: light;
+  font-size: 0.9em;
+}
+
+.Content {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 24px 12px;
+  overflow: hidden;
+}
+
+.Header {
+  background-color: #ddd;
+  text-align: center;
+}
+
+.Header button {
+  width: calc(50% - 8px);
+}
+
+.Buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.EventButton {
+  flex: 0 calc(50% - 8px);
+}
+
+.connected .EventButton {
+  animation-name: animate;
+  animation-duration: 0.5s;
+  animation-delay: var(--delay);
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.Events {
+  margin: 24px 0;
+}
+
+.Status {
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 1rem;
+  padding: 5px 8px;
+  background-color: #b13d3d;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.connected .Status {
+  background-color: #2f922b;
+}
+
+.visible {
+  animation-name: animate;
+  animation-duration: 0.5s;
+  animation-delay: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
